@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\adm22\\AndroidStudioProjects\\TODO2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\adm22\\.gradle\\caches\\transforms-1\\files-1.1\\androidsdk-1.6.7.aar\\89907cd6113780c1486c046bb3693079\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "4,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "199,597",
+                        "endLines": "10,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "592,969"
+                    },
+                    "to": {
+                        "startLines": "170,177",
+                        "startColumns": "4,4",
+                        "startOffsets": "12634,13032",
+                        "endLines": "176,182",
+                        "endColumns": "12,12",
+                        "endOffsets": "13027,13404"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\adm22\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\f906d44f568489f82c1f4fc197cf833a\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,39,40,41,46,51,56,58,60,61,62,115,169",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2180,2605,2694,2795,2898,3306,3726,4148,4255,4384,4455,4538,8469,12543",
+                        "endLines": "7,13,19,25,31,37,38,39,40,45,50,55,57,59,60,61,114,168,169",
+                        "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
+                        "endOffsets": "469,894,1322,1748,2175,2600,2689,2790,2893,3301,3721,4143,4250,4379,4450,4533,8464,12538,12629"
+                    }
+                }
+            ]
+        }
+    ]
+}

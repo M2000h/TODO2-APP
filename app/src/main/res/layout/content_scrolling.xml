@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.adm22.todo.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="34dp"
+            android:text="СПОРТ"
+            android:background="@drawable/buttonshape"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:text="ДОМ"
+            android:layout_below="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:layout_marginTop="37dp" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignStart="@+id/button2"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="РАБОТА" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ОДИН"/>
+
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ДВА" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_alignStart="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ТРИ" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button6"
+            android:layout_alignStart="@+id/button6"
+            android:layout_below="@+id/button6"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ФОР" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_alignStart="@+id/button7"
+            android:layout_below="@+id/button7"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ФАЙВ" />
+
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button8"
+            android:layout_alignStart="@+id/button8"
+            android:layout_below="@+id/button8"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="ШЕСТЬ" />
+        <Button
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_alignStart="@+id/button9"
+            android:layout_below="@+id/button9"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="50dp"
+            android:text="СЕМЬ" />
+
+
+        <Button
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+
+            android:background="@drawable/newbuttonshape"
+            android:id="@+id/CreateButton"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:text="ДОБАВИТЬ\nЗАДАНИЕ"
+            android:layout_below="@+id/button10"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
