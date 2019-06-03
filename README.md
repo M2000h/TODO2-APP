@@ -2,7 +2,7 @@
 
 Android app for time managmeent
 
-## screenshots
+## Screenshots
 <p float="left">
   <img src="/screenshots/photo_2019-06-03_22-35-02.jpg" width="30%" />
   <img src="/screenshots/photo_2019-06-03_22-34-51.jpg" width="30%" />
