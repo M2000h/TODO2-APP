@@ -2,6 +2,9 @@
 
 Android app for time managmeent
 
+## screenshots
+<img src="/screenshots/photo_2019-06-03_22-30-54.jpg" width="24%" />	
+
 ## Built With
 
 * [Java](https://www.java.com/) - programming language
